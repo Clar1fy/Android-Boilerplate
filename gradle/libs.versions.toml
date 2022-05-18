@@ -113,9 +113,12 @@ datastore-proto = { module = "androidx.datastore:datastore", version.ref = "data
 paging-paging = { module = "androidx.paging:paging-runtime-ktx", version.ref = "paging" }
 
 #Firebase
+firebase-firestore = { module = "com.google.firebase:firebase-firestore-ktx" }
 firebase-platform = { module = "com.google.firebase:firebase-bom", version.ref = "firebasePlatform" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics-ktx" }
 firebase-analytics = { module = "com.google.firebase:firebase-analytics-ktx" }
-firebase-
+firebase-auth = { module = "com.google.firebase:firebase-auth-ktx" }
+
 
 #Koin
 koin-koin = { module = "io.insert-koin:koin-android", version.ref = "koin" }
