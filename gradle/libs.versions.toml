@@ -44,8 +44,8 @@ datastore = "1.0.0"
 #Paging
 paging = "3.1.1"
 #Firebase
-firebase = "4.3.10"
-firebasePlatform = "29.2.0"
+googleServices = "4.3.10"
+firebasePlatform = "30.0.1"
 #Glide
 glide = "4.13.0"
 #Koin
@@ -114,6 +114,8 @@ paging-paging = { module = "androidx.paging:paging-runtime-ktx", version.ref = "
 
 #Firebase
 firebase-platform = { module = "com.google.firebase:firebase-bom", version.ref = "firebasePlatform" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics-ktx" }
+firebase-
 
 #Koin
 koin-koin = { module = "io.insert-koin:koin-android", version.ref = "koin" }
@@ -155,3 +157,6 @@ navigation-safeArgs = { id = "androidx.navigation.safeargs.kotlin", version.ref 
 
 #Hilt
 hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+
+#Google Services
+google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }
