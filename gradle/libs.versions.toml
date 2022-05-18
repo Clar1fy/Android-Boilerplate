@@ -46,6 +46,7 @@ paging = "3.1.1"
 #Firebase
 googleServices = "4.3.10"
 firebasePlatform = "30.0.1"
+firebaseCrashlytics = "2.8.1"
 #Glide
 glide = "4.13.0"
 #Koin
@@ -163,3 +164,6 @@ hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 
 #Google Services
 google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+
+#Firebase
+firebase-crashlytics = { id = "com.google.firebase:firebase-crashlytics-gradle", version.ref = "firebaseCrashlytics" }
