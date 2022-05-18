@@ -146,6 +146,9 @@ navigation = ["navigation-fragment", "navigation-ui"]
 #Lifecycle
 lifecycle = ["lifecycle-viewModel", "lifecycle-runtime", "lifecycle-liveData"]
 
+#Firebase
+firebase = ["firebase-firestore", "firebase-platform", "firebase-crashlytics", "firebase-analytics", "firebase-auth"]
+
 
 [plugins]
 #AGP
@@ -166,4 +169,4 @@ hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }
 
 #Firebase
-firebase-crashlytics = { id = "com.google.firebase:firebase-crashlytics-gradle", version.ref = "firebaseCrashlytics" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebaseCrashlytics" }

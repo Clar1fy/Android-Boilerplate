@@ -18,8 +18,6 @@ dependencyResolutionManagement {
         maven { url = uri("https://jitpack.io") }
     }
 }
-
-
 rootProject.name = "Boilerplate"
 include(":app")
 enableFeaturePreview("VERSION_CATALOGS")
