@@ -1,7 +1,8 @@
-package com.timplifier.boilerplate
+package com.timplifier.boilerplate.presentation.ui.main.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.timplifier.boilerplate.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

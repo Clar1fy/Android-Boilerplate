@@ -1,4 +1,4 @@
-package com.timplifier.boilerplate.presentation.ui.uiState
+package com.timplifier.boilerplate.presentation.ui.state
 
 sealed class UIState<T> {
     class Idle<T> : UIState<T>()

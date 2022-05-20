@@ -6,7 +6,7 @@ import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import androidx.paging.map
 import com.example.boilerplate.domain.either.Either
-import com.timplifier.boilerplate.presentation.ui.uiState.UIState
+import com.timplifier.boilerplate.presentation.ui.state.UIState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
