@@ -24,6 +24,7 @@ android {
             )
         }
         debug {
+            buildConfigField("String", "MAIN_BASE_URL","")
         }
     }
     compileOptions {
@@ -36,6 +37,7 @@ android {
 }
 
 dependencies {
+    implementation(project(":domain"))
 
     // Retrofit
     implementation(libs.bundles.retrofit)
