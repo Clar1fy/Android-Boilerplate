@@ -24,7 +24,8 @@ android {
             )
         }
         debug {
-            buildConfigField("String", "MAIN_BASE_URL","")
+            buildConfigField("String", "MAIN_BASE_URL", "\"https://foo.io/api/\"")
+            buildConfigField("String", "AUTH_BASE_URL", "\"https://foo.io/api/oauth/\"")
         }
     }
     compileOptions {
