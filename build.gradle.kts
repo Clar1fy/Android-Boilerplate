@@ -7,5 +7,4 @@ plugins {
     alias(libs.plugins.hilt.android) apply false
     alias(libs.plugins.google.services) apply false
     alias(libs.plugins.firebase.crashlytics) apply false
-    id("org.jetbrains.kotlin.jvm") version "1.6.21" apply false
 }
