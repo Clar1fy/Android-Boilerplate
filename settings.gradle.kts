@@ -22,3 +22,4 @@ rootProject.name = "Boilerplate"
 include(":app")
 enableFeaturePreview("VERSION_CATALOGS")
 include(":data")
+include(":domain")
