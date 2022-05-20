@@ -5,5 +5,5 @@ import retrofit2.http.GET
 
 interface DummyApiService {
     @GET("dummy")
-    suspend fun getDummies(): DummyDto
+    suspend fun getDummies(): List<DummyDto>
 }

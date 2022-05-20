@@ -1,13 +1,16 @@
 package com.example.boilerplate.data.local.room
 
-import androidx.room.Database
-import androidx.room.RoomDatabase
-import com.example.boilerplate.data.remote.dtos.DummyDto
+import android.content.Context
+import androidx.room.Room
+import com.example.boilerplate.data.local.room.daos.DummyDao
+import com.example.boilerplate.data.local.room.database.AppDatabase
 
-@Database(
-    entities = [DummyDto::class], version = 1, exportSchema = false
-)
+class RoomClient {
 
+    fun provideRoomDatabase(context: Context) =
+        Room.databaseBuilder(context, AppDatabase::class.java, "database")
+            .fallbackToDestructiveMigration().build()
 
-abstract class AppDatabase : RoomDatabase() {
+    fun provideCharacterDao(appDatabase: AppDatabase): DummyDao =
+        appDatabase.dummyDao()
 }
