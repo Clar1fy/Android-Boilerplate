@@ -1,5 +1,6 @@
 package com.example.boilerplate.data.remote
 
+import com.example.boilerplate.data.remote.apis.DummyAuthenticationApiService
 import javax.inject.Inject
 
 class NetworkClient @Inject constructor(
@@ -14,6 +15,7 @@ class NetworkClient @Inject constructor(
     ) {
         private val retrofit =
             retrofitClient.provideAuthenticationRetrofit(okHttp.provideOkHttpClient())
+        fun provideDummyAuthenticationApiService() : DummyAuthenticationApiService = retrofit.createAnApi()
 
     }
 }

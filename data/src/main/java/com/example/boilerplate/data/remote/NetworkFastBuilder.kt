@@ -1,5 +1,6 @@
 package com.example.boilerplate.data.remote
 
+import com.example.boilerplate.data.local.preferences.PreferencesHelper
 import com.example.data.BuildConfig
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
