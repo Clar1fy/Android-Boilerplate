@@ -1,4 +1,4 @@
-package com.timplifier.boilerplate.presentation.ui
+package com.timplifier.boilerplate
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
