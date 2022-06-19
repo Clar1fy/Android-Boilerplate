@@ -87,6 +87,7 @@ arrow-core = { module = "io.arrow-kt:arrow-core", version.ref = "arrow" }
 arrow-optics = { module = "io.arrow-kt:arrow-optics", version.ref = "arrow" }
 arrow-corePlusOptics = { module = "io.arrow-kt:arrow-meta:$arrow_version", version.ref = "arrow" }
 arrow-corePlusFx = { module = "io.arrow-kt:arrow-fx-coroutines", versionr.ref = "arrow" }
+arrow-fxStm = { module = "io.arrow-kt:arrow-fx-stm", version.ref = "arrow" }
 
 
 #Core
@@ -171,6 +172,8 @@ koin-koin = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 #UI Components
 uiComponents = ["ui-activity", "ui-fragment", "ui-appCompat", "ui-constraint", "ui-material", "ui-viewBindingPropertyDelegate", "glide-glide", "ui-splashScreen", "ui-maskedEditText", "ui-dotsIndicator", "ui-emojiMaterial", "ui-emojiGoogle"]
 
+
+
 #Room
 room = ["room-runtime", "room-kotlinExtensionsAndCoroutinesSupport"]
 
@@ -181,7 +184,6 @@ datastore = ["datastore-preferences", "datastore-proto"]
 retrofit = ["retrofit-retrofit", "retrofit-gsonConverter"]
 
 #Hilt
-
 hilt = ["hilt-android", "hilt-viewModels"]
 
 #OkHttp
