@@ -12,7 +12,7 @@ plugins {
     id(libs.plugins.navigation.safeArgs.get().pluginId)
 
     // Hilt
-//    id(libs.plugins.hilt.android.get().pluginId)
+    id(libs.plugins.hilt.android.get().pluginId)
 }
 
 android {
@@ -64,9 +64,16 @@ dependencies {
     // Navigation
     api(libs.bundles.navigation)
 
+    // Retrofit
+    api(libs.bundles.retrofit)
+
+    // OkHttp
+    api(libs.bundles.okHttp)
+
+
     // Hilt
     implementation(libs.hilt.android)
-//    kapt(libs.hilt.compiler)
+    kapt(libs.hilt.compiler)
 
     // Paging 3
     api(libs.paging.paging)
