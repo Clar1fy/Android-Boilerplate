@@ -1,4 +1,4 @@
-package com.geektechkb.core.utils
+package com.timplifier.core.utils
 
 import android.view.View
 

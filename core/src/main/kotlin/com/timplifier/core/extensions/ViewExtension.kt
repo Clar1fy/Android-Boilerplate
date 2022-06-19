@@ -1,7 +1,7 @@
 package com.timplifier.core.extensions
 
 import android.view.View
-import com.geektechkb.core.utils.OnSingleClickListener
+import com.timplifier.core.utils.OnSingleClickListener
 
 fun View.visible() {
     this.visibility = View.VISIBLE
