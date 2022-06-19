@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Boilerplate"
-include(":app", ":common", ":core", ":feature_main")
+include(":app", ":common", ":core", ":feature-main")
 enableFeaturePreview("VERSION_CATALOGS")

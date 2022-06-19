@@ -56,7 +56,6 @@ android {
 }
 
 dependencies {
-    implementation(project(":feature-auth"))
     implementation(project(":feature-main"))
 
     // Hilt
