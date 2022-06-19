@@ -1,4 +1,4 @@
-package com.geektechkb.core.extensions
+package com.timplifier.core.extensions
 
 import android.widget.ImageView
 import com.bumptech.glide.Glide

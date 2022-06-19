@@ -1,4 +1,4 @@
-package com.geektechkb.core.extensions
+package com.timplifier.core.extensions
 
 import android.view.View
 import com.geektechkb.core.utils.OnSingleClickListener
