@@ -42,38 +42,24 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "1.8"
     }
 
     //ViewBinding
-    buildFeatures.viewBinding = true
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
-    implementation(project(":data"))
-    implementation(project(":domain"))
-
-
-    // UI Components
-    implementation(libs.bundles.uiComponents)
-
-    // Core
-    implementation(libs.android.core)
-
-    // Coroutines
-    implementation(libs.coroutines.android)
-
-    // Lifecycle
-    implementation(libs.bundles.lifecycle)
-
-    // Navigation
-    implementation(libs.bundles.navigation)
+    implementation(project(":feature-auth"))
+    implementation(project(":feature-main"))
 
     // Hilt
-    implementation(libs.hilt.android)
+    implementation(libs.bundles.hilt)
     kapt(libs.hilt.compiler)
 }
