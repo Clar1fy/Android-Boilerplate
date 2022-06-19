@@ -1,11 +1,11 @@
-package com.geektechkb.core.base
+package com.timplifier.core.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
 import androidx.paging.map
-import com.geektechkb.common.either.Either
+import com.timplifier.common.either.Either
 import com.timplifier.core.ui.state.UIState
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

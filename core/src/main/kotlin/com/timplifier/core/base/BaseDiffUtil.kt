@@ -1,8 +1,8 @@
-package com.geektechkb.core.base
+package com.timplifier.core.base
 
 import androidx.recyclerview.widget.DiffUtil
 
-class BaseDiffUtil<T : BaseDiffModel> : DiffUtil.ItemCallback<T>() {
+class BaseDiffUtil<T : BaseDiffModel<S>, S> : DiffUtil.ItemCallback<T>() {
     override fun areItemsTheSame(oldItem: T, newItem: T) =
         oldItem.phoneNumber == newItem.phoneNumber
 

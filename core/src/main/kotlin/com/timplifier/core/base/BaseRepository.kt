@@ -1,13 +1,13 @@
-package com.geektechkb.core.base
+package com.timplifier.core.base
 
 import android.net.Uri
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.PagingSource
-import com.geektechkb.common.either.Either
 import com.google.firebase.firestore.CollectionReference
 import com.google.firebase.firestore.DocumentSnapshot
 import com.google.firebase.storage.StorageReference
+import com.timplifier.common.either.Either
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow

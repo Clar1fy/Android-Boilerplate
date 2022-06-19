@@ -1,4 +1,4 @@
-package com.geektechkb.core.base
+package com.timplifier.core.base
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding

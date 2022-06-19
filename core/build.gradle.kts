@@ -48,7 +48,7 @@ android {
 
 dependencies {
 
-//    api(project(":common"))
+    api(project(":common"))
     api(libs.bundles.uiComponents)
 
     // Core

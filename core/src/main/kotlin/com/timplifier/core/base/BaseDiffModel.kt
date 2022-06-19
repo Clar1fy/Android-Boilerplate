@@ -1,6 +1,6 @@
-package com.geektechkb.core.base
+package com.timplifier.core.base
 
-interface BaseDiffModel {
-    val phoneNumber: String?
+interface BaseDiffModel<T> {
+    val phoneNumber: T?
     override fun equals(other: Any?): Boolean
 }

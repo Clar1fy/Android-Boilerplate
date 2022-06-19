@@ -1,4 +1,4 @@
-package com.geektechkb.core.base
+package com.timplifier.core.base
 
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
