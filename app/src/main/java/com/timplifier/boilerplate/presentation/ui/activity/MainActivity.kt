@@ -1,4 +1,4 @@
-package com.timplifier.boilerplate.presentation.ui.main.activity
+package com.timplifier.boilerplate.presentation.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
