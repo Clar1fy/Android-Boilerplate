@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="Boilerplate.app" target="11" />
+      <module name="Boilerplate.core" target="11" />
+      <module name="Boilerplate.data" target="11" />
+      <module name="Boilerplate.domain" target="11" />
+      <module name="Boilerplate.domain.main" target="11" />
+      <module name="Boilerplate.domain.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
