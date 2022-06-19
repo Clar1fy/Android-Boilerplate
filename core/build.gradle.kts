@@ -1,6 +1,18 @@
 plugins {
+    // Application
     id("com.android.library")
-    id("org.jetbrains.kotlin.android")
+
+    // Kotlin
+    id("kotlin-android")
+
+    // Kapt
+    id("kotlin-kapt")
+
+    // Navigation SafeArgs
+    id(libs.plugins.navigation.safeArgs.get().pluginId)
+
+    // Hilt
+//    id(libs.plugins.hilt.android.get().pluginId)
 }
 
 android {
@@ -11,7 +23,6 @@ android {
         targetSdk = 32
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles("consumer-rules.pro")
     }
 
     buildTypes {
@@ -24,20 +35,46 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
         jvmTarget = "1.8"
+    }
+    buildFeatures {
+        viewBinding = true
     }
 }
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.7.0")
-    implementation("androidx.appcompat:appcompat:1.4.2")
-    implementation("com.google.android.material:material:1.6.1")
-    testImplementation("junit:junit:4.13.2")
-    androidTestImplementation("androidx.test.ext:junit:1.1.3")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
-}
+//    api(project(":common"))
+    api(libs.bundles.uiComponents)
+
+    // Core
+    api(libs.android.core)
+
+    // Coroutines
+    api(libs.coroutines.android)
+    api(libs.coroutines.core)
+
+    // Lifecycle
+    api(libs.bundles.lifecycle)
+
+    // Navigation
+    api(libs.bundles.navigation)
+
+    // Hilt
+    implementation(libs.hilt.android)
+//    kapt(libs.hilt.compiler)
+
+    // Paging 3
+    api(libs.paging.paging)
+
+    //FireBase
+    api(libs.bundles.firebaseNoAdMobAndCrashlytics)
+    api(platform(libs.firebase.platform))
+
+    //Glide
+    api(libs.glide.glide)
+}8
