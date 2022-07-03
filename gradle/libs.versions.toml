@@ -34,7 +34,7 @@ fragment = "1.4.1"
 #Lifecycle
 lifecycle = "2.4.1"
 #Navigation
-navigation = "2.4.2"
+navigation = "2.5.0"
 #Dagger
 dagger = "2.42"
 #Hilt
