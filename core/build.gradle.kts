@@ -77,11 +77,4 @@ dependencies {
 
     // Paging 3
     api(libs.paging.paging)
-
-    //FireBase
-    api(libs.bundles.firebaseNoAdMobAndCrashlytics)
-    api(platform(libs.firebase.platform))
-
-    //Glide
-    api(libs.glide.glide)
-}8
+}
