@@ -12,7 +12,7 @@ plugins {
     id(libs.plugins.navigation.safeArgs.get().pluginId)
 
     // Hilt
-//    id(libs.plugins.hilt.android.get().pluginId)
+    id(libs.plugins.hilt.android.get().pluginId)
 }
 
 android {
@@ -50,7 +50,7 @@ dependencies {
     api(project(":common"))
     api(project(":core"))
 
-    //    Hilt
+    // Hilt
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
 }

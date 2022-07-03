@@ -15,9 +15,6 @@ plugins {
     // Hilt
     id(libs.plugins.hilt.android.get().pluginId)
 
-    // Google Services
-    id(libs.plugins.google.services.get().pluginId)
-
 }
 
 android {
