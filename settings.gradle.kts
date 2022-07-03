@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 rootProject.name = "Boilerplate"
 include(":app", ":common", ":core", ":feature-main")
 enableFeaturePreview("VERSION_CATALOGS")
+include(":feature-main:data")

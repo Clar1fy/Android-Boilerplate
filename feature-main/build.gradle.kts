@@ -50,7 +50,7 @@ dependencies {
     api(project(":common"))
     api(project(":core"))
 
-    // Hilt
-//    implementation(libs.hilt.android)
-//    kapt(libs.hilt.compiler)
+    //    Hilt
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
 }
