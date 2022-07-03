@@ -12,7 +12,7 @@ compileSdk = "32"
 minSdk = "23"
 targetSdk = "32"
 #Coroutines
-coroutines = "1.6.2"
+coroutines = "1.6.3"
 #Arrow
 arrow = "1.0.1"
 #Legacy support
