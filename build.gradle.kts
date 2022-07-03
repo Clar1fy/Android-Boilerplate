@@ -5,6 +5,4 @@ plugins {
     alias(libs.plugins.kotlin.gradle) apply false
     alias(libs.plugins.navigation.safeArgs) apply false
     alias(libs.plugins.hilt.android) apply false
-    alias(libs.plugins.google.services) apply false
-    alias(libs.plugins.firebase.crashlytics) apply false
 }
