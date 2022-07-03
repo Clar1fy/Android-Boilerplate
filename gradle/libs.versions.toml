@@ -28,7 +28,7 @@ emojiPopUp = "0.15.0"
 #Core
 core = "1.8.0"
 #Activity
-activity = "1.4.0"
+activity = "1.5.0"
 #fragment
 fragment = "1.4.1"
 #Lifecycle
