@@ -85,7 +85,7 @@ coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-androi
 #Arrow
 arrow-core = { module = "io.arrow-kt:arrow-core", version.ref = "arrow" }
 arrow-optics = { module = "io.arrow-kt:arrow-optics", version.ref = "arrow" }
-arrow-corePlusOptics= { module = "io.arrow-kt:arrow-meta", version.ref = "arrow" }
+arrow-corePlusOptics = { module = "io.arrow-kt:arrow-meta", version.ref = "arrow" }
 arrow-corePlusFx = { module = "io.arrow-kt:arrow-fx-coroutines", version.ref = "arrow" }
 arrow-fxStm = { module = "io.arrow-kt:arrow-fx-stm", version.ref = "arrow" }
 
@@ -170,7 +170,7 @@ koin-koin = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 
 [bundles]
 #UI Components
-uiComponents = ["ui-activity", "ui-fragment", "ui-appCompat", "ui-constraint", "ui-material", "ui-viewBindingPropertyDelegate", "glide-glide", "ui-splashScreen", "ui-maskedEditText", "ui-dotsIndicator", "ui-emojiMaterial", "ui-emojiGoogle"]
+uiComponents = ["ui-activity", "ui-fragment", "ui-appCompat", "ui-constraint", "ui-material", "ui-viewBindingPropertyDelegate", "glide-glide", "ui-splashScreen", "ui-maskedEditText", "ui-dotsIndicator"]
 
 
 
